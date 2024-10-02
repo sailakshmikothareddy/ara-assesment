@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  height: 100vh;
+  padding: 20px;
+}
+
+
+.full-body {
+  background-color: #f0f0f0;
+}
+
+.full-height {
+  height: 100%;
+}
+
+
+.left-side {
+  padding: 20px;
+}
+
+.button-group {
+  display: flex;
+  border: 1px solid #d5d4d8;
+  border-radius: 8px;
+  width: 100%; 
+  max-width: 450px;
+}
+
+
+.section-button {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  flex: 1; 
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+.violet-section {
+  background-color: blueviolet;
+  color: #fff;
+  border-right: 1px solid #7c4dff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #7c4dff;
+  border-right: 1px solid #7c4dff; 
+}
+
+.button-group .white-section:last-child {
+  border-right: none; 
+}
+
+.violet-text {
+  color: #7c4dff;
+}
+
+
+.disabled-section {
+  background-color: #fff;
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: not-allowed;
+  border-radius: 8px;
+}
+
+.disabled-text {
+  color: #ccc;
+}
+
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 100%;
+  height: 100% !important; 
+  padding: 20px 0px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.cards {
+  width: 100%;
+  height: 100% !important; 
+  
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.remaining-height {
+  max-height: calc(100% - 40px);
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.project-icon, .database-icon, .clock-icon {
+  border: 2px solid #7c4dff; 
+  border-radius: 8px;
+  background-color: #f3e5f5; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 5px; 
+  margin-right: 10px; 
+}
+
+
+.project-details, .database-details, .clock-details {
+  flex: 1; 
+}
+
+
+.full-body {
+  background-color: #f0f0f0;
+}
+
+
+.card {
+ 
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+
+.violet-text {
+  color: #7c4dff; 
+}
+
+
+.black-text {
+  color: black; 
+  font-weight: bold; 
+}
+
+
+.rows-count {
+  color: black; 
+  font-weight: bold; }
+.table {
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.text-danger {
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.border {
+  border: 1px solid #ccc; 
+}
+
+.table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.table th,
+.table td {
+  padding: 8px; 
+  text-align: center;
+}
+
+
+
